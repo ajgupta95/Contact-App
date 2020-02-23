@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title><%= pageTitle%></title> 
+     
+     <link rel="stylesheet" href="/css/form.css">
+        
+    </head> 
+    <body> 
+        <% if (message) { %>
+            <h1>  <%=message%></h2>
+              <%}%>
+        <form action="/login" method="POST"> 
+        <div class="container"> 
+            <h2>Log In</h2> 
+            <b>Email</b><br> 
+            <input type="text" placeholder="Enter Email" 
+            name="email" id="email" required> 
+            <br><b>Password</b><br> 
+            <input type="password" placeholder="Enter Password" 
+            name="password" id="password" required> 
+            <br><br> 
+            <button type="submit" class="registerbtn"> 
+             Enter</button> 
+        </div> 
+        <div class="container signin"> 
+        <p>Does not have a account Sign up first ? 
+         <a href="/signUp">Sign up.</a></p> 
+        </div> 
+        </form> 
+    </body> 
+</html> 

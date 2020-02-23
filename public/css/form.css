@@ -1,0 +1,32 @@
+ 
+input { 
+ width:95%; 
+ height:30px; 
+ } 
+ button { 
+ background-color:rgb(19, 0, 128); 
+ color:white; 
+ border:none; 
+ border-radius:5px; 
+ font-size:14px; 
+ padding:5px; 
+ text-align: center;
+                  
+ } 
+ h1 { 
+ color:black;
+  text-align: center; 
+ } 
+h2 { 
+ text-align:center; 
+ background-color:blue; 
+ color:white; 
+ border:none; 
+ border-radius:5px; 
+ font-size:14px; 
+  padding:20px; 
+  } 
+body { 
+ width:60%;
+text-align:center;
+} 
