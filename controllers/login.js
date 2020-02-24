@@ -3,7 +3,7 @@ var jwt = require('jsonwebtoken');
 const cookieParser=require('cookie-parser');
 
 var logIn=(req,res)=>{
-    console.log('body',req.body);
+ //   console.log('body',req.body);
     const email=req.body.email;
     const pass=req.body.password;
     User.findOne({email:email}).then((user)=>{
